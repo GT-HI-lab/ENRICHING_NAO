@@ -2,7 +2,7 @@ import websocket
 from naoqi import ALProxy
 import speech_recognition as sr
 
-# NAOqi Proxies
+# NAOqi Proxies need to get this going via python 2.7
 tts = ALProxy("ALTextToSpeech", "<NAO_IP>", 9559)
 animated_speech = ALProxy("ALAnimatedSpeech", "<NAO_IP>", 9559)
 

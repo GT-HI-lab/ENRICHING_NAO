@@ -4,6 +4,7 @@ import openai
 
 # OpenAI API Key
 openai.api_key = "your-api-key"
+# need to set up authorizing api
 
 async def handle_connection(websocket, path):
     async for message in websocket:
