@@ -9,7 +9,7 @@ animated_speech = ALProxy("ALAnimatedSpeech", "<NAO_IP>", 9559)
 # WebSocket Client Callbacks
 def on_message(ws, message):
     print(f"LLM Response: {message}")
-    # animated_response(message) need to update this before working more
+    # animated_response(message) need to update this
 
 def on_error(ws, error):
     print(f"WebSocket Error: {error}")
