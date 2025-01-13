@@ -9,7 +9,7 @@ openai.api_key = "your-api-key"
 async def handle_connection(websocket, path):
     async for message in websocket:
         print(f"Received from NAO: {message}")
-        # Process the message with LLM elaborate on this
+        # Process the message with LLM elaborate on this to get it working
         response = await get_response_from_llm(message)
         print(f"Response from LLM: {response}")
         await websocket.send(response)
